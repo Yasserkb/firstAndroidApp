@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:orientation="vertical"
+    android:layout_margin="25dp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="233dp"
+        android:layout_marginBottom="75dp"
+        android:src="@drawable/logoo" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/regName"
+        android:drawableLeft="@drawable/baseline_person_24"
+        android:hint="Name" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/regLogin"
+        android:drawableLeft="@drawable/baseline_alternate_email_24"
+        android:hint="Mail" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/regPassword"
+        android:drawableLeft="@drawable/baseline_lock_24"
+        android:hint="Password"
+        android:inputType="textPassword"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/regConfPassword"
+        android:drawableLeft="@drawable/baseline_lock_24"
+        android:hint="Confirm"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/regSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Sign Up" />
+
+</LinearLayout>
